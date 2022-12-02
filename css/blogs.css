@@ -1,0 +1,88 @@
+@import url(footer.css);
+@import url(avartar.css);
+
+/*Initial Setup Begin*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font:inherit;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width:100%;
+}
+
+input, textarea, button, select {
+    font:inherit;
+}
+
+body {
+    min-height:100vh;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+main {
+    max-width: 800px;
+    margin:auto;
+    padding:10px;
+}
+
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h1,h2,h3 {
+    margin: 10px;
+}
+
+/*Initial Setup End*/
+
+
+
+p {
+    font-size:1.2em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.quote {
+    border-left: 3px solid black;
+    padding: 5px;
+    margin:5px;
+
+}
+
+pre {
+    padding:10px;
+    background-color:rgb(239, 239, 239);
+    border-left:4px solid rgb(28, 140, 238);
+}
+pre code {
+    font-size: 1.3em !important;
+}
+
+.back {
+    margin-bottom: 2rem;
+    margin-top:1rem;
+    margin-left:0.5rem;
+}
+.back a {
+    text-decoration: none;
+    color:#1a77a6 !important;
+}

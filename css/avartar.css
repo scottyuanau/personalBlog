@@ -1,0 +1,25 @@
+.author {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.avartar {
+    max-width: 50px;
+    display:inline-block;
+}
+.avartar img {
+    border-radius:50%;
+}
+.authorDetails {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.authorDetails h4 {
+    padding-top:0.5em;
+    color:#1a77a6;
+    font-weight:600;
+}
