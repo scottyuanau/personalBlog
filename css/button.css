@@ -1,0 +1,32 @@
+button {
+    max-width: 200px;
+    font-size:1.5em !important;
+}
+
+.btn-primary {
+    background-color: #4fb0df !important;
+    border:none !important;
+    font-weight:600 !important;
+}
+
+.btn-primary:hover {
+    background-color: #1a77a6 !important;
+}
+
+.btn-primary:active {
+    transform:scale(0.95);
+}
+
+.btn-secondary {
+    background-color:white !important;
+    color:#4fb0df !important;
+    border:1px solid #4fb0df !important;
+    font-weight:600 !important;
+}
+
+.btn-secondary:hover {
+    background-color:#e1e1e1 !important;
+}
+.btn-secondary:active {
+    transform:scale(0.95);
+}

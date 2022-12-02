@@ -1,0 +1,17 @@
+footer {
+    grid-area:ft;
+    background-color:#666666;
+    color:white;
+    padding:10px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    text-align:center;
+    vertical-align: middle;
+    top:auto;
+    margin-top:auto;
+}
