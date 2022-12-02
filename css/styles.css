@@ -63,7 +63,7 @@ h1,h2 {
 .blogs {
     margin:5px;
     background-color:#efefef;
-    min-height: 400px;
+    height: 420px;
     max-width:300px;
     padding:10px;
     border-radius: 5px;
@@ -72,8 +72,6 @@ h1,h2 {
 p {
     font-size:1.5em;
 }
-
-
 
 
 @media (max-width:800px) {
@@ -94,4 +92,9 @@ p {
 
 .highlightedh2 {
     color: #4fb0df;
+}
+
+.blogContent {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
 }
