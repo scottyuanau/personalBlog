@@ -6,11 +6,17 @@
     box-sizing: border-box;
     font-size:10px;
     margin:0;
+    border:1px solid red;
 }
 
 
 html {
     font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-width:400px;
 }
 
 .container {
@@ -30,6 +36,8 @@ html {
 }
 header {
     grid-area:hd;
+    display:flex;
+    align-items: center;
 }
 .blogContainer {
     grid-area: main;
@@ -51,6 +59,24 @@ header {
 
 h1,h2 {
     color: #7a7e7d;
+}
+
+h1 {
+    font-size:2.5rem;
+}
+
+h2 {
+    font-size:1.5rem;
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size:1.5rem;
+    }
+    
+    h2 {
+        font-size:1rem;
+    }
 }
 
 .blogmain {
@@ -95,6 +121,6 @@ p {
 }
 
 .blogContent {
-    display:grid;
-    grid-template-rows: 1fr 1fr;
+    display:flex;
+    flex-direction:column;
 }

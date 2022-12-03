@@ -1,16 +1,42 @@
 button {
-    max-width: 200px;
+    width: 200px;
     font-size:1.5em !important;
+    padding: 10px 5px 10px 5px;
+    margin:5px;
+    border-radius:5px;
+}
+
+@media (max-width:800px) {
+    button {
+        width: 150px;
+        font-size:1.5em !important;
+        padding: 10px 5px 10px 5px;
+        margin:5px;
+        border-radius:5px;
+    }
+
+    .buttons {
+        padding-left:20px;
+        display:flex;
+        justify-content: center;
+        overflow:hidden;
+        min-width: 260px;
+    }
+}
+
+.buttons {
+    padding-left:20px;
 }
 
 .btn-primary {
-    background-color: #4fb0df !important;
-    border:none !important;
-    font-weight:600 !important;
+    background-color: #4fb0df;
+    border:none;
+    font-weight:600;
+    color:white;
 }
 
 .btn-primary:hover {
-    background-color: #1a77a6 !important;
+    background-color: #1a77a6;
 }
 
 .btn-primary:active {
@@ -18,14 +44,14 @@ button {
 }
 
 .btn-secondary {
-    background-color:white !important;
-    color:#4fb0df !important;
-    border:1px solid #4fb0df !important;
-    font-weight:600 !important;
+    background-color:white;
+    color:#4fb0df;
+    border:1px solid #4fb0df;
+    font-weight:600;
 }
 
 .btn-secondary:hover {
-    background-color:#e1e1e1 !important;
+    background-color:#e1e1e1;
 }
 .btn-secondary:active {
     transform:scale(0.95);
