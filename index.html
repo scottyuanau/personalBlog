@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- CSS only -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <title>Personal Blog</title>
 </head>
 <body>
@@ -30,31 +30,42 @@
         <div class="blogContainer">
             <div class="blogdescription"><p>This basic blog layout uses Miligram in tandem with CSS Grid & Flex Box.</p></div>
             <div class="blogmain">
-                <div class="blogs">
+                <div class="card">
                     <div class="blogTitle">
                         <h2 class="highlightedh2"><a href="blog1.html">Blog Post 1</a></h2>
                     </div>
                     <div class="blogContent">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nostrum ex voluptatibus quisquam facere doloribus quod. Eos qui cum obcaecati quis libero dolor exercitationem quod! Consequuntur doloribus autem eligendi recusandae?</p>
-                        <img src="img/banner.jpg" class="img-fluid">
+                       
+                        <div class='card1'><figure><img src="img/banner.jpg" class="img-fluid" alt="some food">
+                        <figcaption>fresh food for eaters</figcaption>
+                        </figure></div>
+                        <div class='card2'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nostrum ex voluptatibus quisquam facere doloribus quod. Eos qui cum obcaecati quis libero dolor exercitationem quod! Consequuntur doloribus autem eligendi recusandae?</p></div>
+                        <div class='card3'><a href="blog1.html"><button class="btn btn-primary" type="button">Read More</button></a></div>
                     </div>
                     
                 </div>
-                <div class="blogs">
+                <div class="card">
                     <div class="blogTitle">
                         <h2><a href="blog2.html">Blog Post 2</a></h2>
                     </div>
                     <div class="blogContent">
+                        
+                        <figure><img src="img/cafe.jpeg" class="img-fluid" alt="cafe door">
+                        <figcaption>New cafe set up</figcaption></figure>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nam dolor, quae eum sequi sapiente quasi, quod repudiandae dolorem perferendis soluta vero culpa exercitationem error vel eos vitae sit sint.</p>
-                        <img src="img/cafe.jpeg" class="img-fluid">
+                        <a href="blog2.html"><button class="btn btn-primary" type="button">Read More</button></a>
                     </div>
                 </div>
-                <div class="blogs">
+                <div class="card">
                     <div class="blogTitle">
                         <h2><a href="blog3.html">Blog Post 3</a></h2>
                     </div>
-                    <div class="blogContent"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, exercitationem tempora. Ducimus magnam aut labore temporibus ipsam consequuntur non, nobis eum illo sequi facere atque aspernatur neque error voluptatibus voluptates!</p>
-                        <img src="img/chef.jpeg" class="img-fluid">
+                    <div class="blogContent">
+                        <figure><img src="img/chef.jpeg" class="img-fluid" alt="chefs cooking">
+                        <figcaption>chef is cooking</figcaption>
+                        </figure>
+                        <p>Lorem ipsum dolor sit amet, <span class="highlighted">consectetur adipisicing elit</span>. Quas, exercitationem tempora. Ducimus magnam aut labore temporibus ipsam consequuntur non, nobis eum illo sequi facere atque aspernatur neque error voluptatibus voluptates!</p>
+                        <a href="blog3.html"><button class="btn btn-primary" type="button">Read More</button></a>
                     </div>
                     
                 </div>
@@ -62,6 +73,10 @@
         </div>
     <footer>
         <p>Copyright 2022</p>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></i></a>
+          
     </footer>
 </div>
 </body>
